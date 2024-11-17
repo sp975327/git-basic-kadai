@@ -1,0 +1,19 @@
+TakashinoMacBook-Pro:kadai_git semipro$ mkdir git_challenge
+TakashinoMacBook-Pro:kadai_git semipro$ cd git_challenge
+TakashinoMacBook-Pro:git_challenge semipro$ git init
+Initialized empty Git repository in /Users/semipro/Desktop/kadai_git/git_challenge/.git/
+TakashinoMacBook-Pro:git_challenge semipro$ git add hello_world.txt
+TakashinoMacBook-Pro:git_challenge semipro$ git commit -m "hello_world.txtを追加"
+[main (root-commit) b16314b] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+TakashinoMacBook-Pro:git_challenge semipro$ git log --oneline
+b16314b (HEAD -> main) hello_world.txtを追加
+TakashinoMacBook-Pro:git_challenge semipro$ git add hello_world.txt
+TakashinoMacBook-Pro:git_challenge semipro$ git commit -m "日本語訳を追記"
+[main a028bca] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+TakashinoMacBook-Pro:git_challenge semipro$ git log --oneline
+a028bca (HEAD -> main) 日本語訳を追記
+b16314b hello_world.txtを追加
+TakashinoMacBook-Pro:git_challenge semipro$
